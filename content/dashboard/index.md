@@ -16,19 +16,23 @@ Explore gridded forecast outputs with interactive controls for time, variable se
   </ul>
 </div>
 
-<iframe src="https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME" style="width:100%; height:900px; border:2px solid #e5e7eb; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);"></iframe>
+<iframe src="https://huggingface.co/spaces/prakrutkansara/hydroclimate-s2s" style="width:100%; height:900px; border:2px solid #e5e7eb; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);"></iframe>
 
 ---
 
-### Setup Instructions
+### About the Dashboard
 
-**Dashboard is deployed on Hugging Face Spaces**
+**Interactive NASA GEOSS2S Precipitation Forecasts**
 
-Update the iframe URL above after deploying to Hugging Face.
+Explore seasonal precipitation forecasts for South America using NASA's GEOSS2S multi-model ensemble system.
 
-Replace:
-- `YOUR_USERNAME` with your Hugging Face username
-- `YOUR_SPACE_NAME` with your space name (e.g., `nasa-geoss2s-dashboard`)
+**Features:**
+- 🗺️ Interactive spatial maps with geographic context
+- 📅 Monthly forecast lead times (0.5-8.5 months)
+- 📊 Statistical analysis and distribution plots
+- 📈 Time series visualization for any location
+
+**Powered by:** Panel, HoloViews, GeoViews, and xarray
 
 ### Technical Stack
 
