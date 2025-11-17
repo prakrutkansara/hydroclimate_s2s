@@ -1,3 +1,21 @@
+# =============================================================================
+# GitHub Actions Workflow for Hugo Static Site Deployment
+# =============================================================================
+# This workflow automatically builds and deploys the Hugo site to GitHub Pages
+# whenever changes are pushed to the main branch.
+#
+# Workflow Steps:
+# 1. Checkout repository code with submodules (PaperMod theme)
+# 2. Setup Hugo (version 0.152.2 extended)
+# 3. Build the site with minification
+# 4. Upload build artifacts to GitHub Pages
+# 5. Deploy to GitHub Pages
+#
+# Requirements:
+# - Repository Settings -> Pages -> Source must be set to "GitHub Actions"
+# - Workflow permissions: read contents, write pages, write id-token
+# =============================================================================
+
 name: Deploy Hugo site to GitHub Pages
 
 on:
